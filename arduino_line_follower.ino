@@ -10,7 +10,7 @@ int IR_sensor_1=12;
 int IR_sensor_2=11;
 
 void setup() {
-  // put your setup code here, to run once:
+  // declarations
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
@@ -24,7 +24,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Execution
   digitalWrite(2,HIGH);
   digitalWrite(3,LOW);
   digitalWrite(4,HIGH);
